@@ -1,1 +1,311 @@
-p{color:blue}
+
+.static_bar {display: none !important}
+
+body {margin: 0}
+
+.contained_box {max-width: 1120px; margin: auto}
+body * {font-family: "Poppins",Sans-serif;}
+h1, h2, h3, h4, p {margin: 0 0 10px 0; line-height: 1.4em}
+.flex_row_desk {display: flex; gap: 30px}
+.flex_always {display: flex}
+.banner_section {padding: 50px 0; background-image: linear-gradient(180deg,#f4f4f4 70%,#fff 100%);}
+.banner_badge {background: black; color: white; padding: 8px 12px; display: inline-block; font-size: 16px !important; font-weigh: 500 !important}
+.sub_heading {padding: 10px 0 5px 0}
+.gradient_txt { background: linear-gradient(45deg,#6072f5,#fe4988,#dd4f82); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.left_section h1 {font-size: 50px; font-weight: 600}
+.left_section p {font-weight: 600; font-size: 20px}
+.left_section p.gradient_txt {font-size:35px}
+.left_section p.gradient_txt b {font-weight:800}
+.left_section i {color: #fe4789; font-size: 30px}
+.left_section .cta {margin-top: 15px}
+.banner_section .left_section {width: 55%}
+.banner_section .right_section {width:45%}
+.cta {background-color: #fe4789; padding:15px 40px; color: white; text-decoration: none; display: inline-block; text-align: center; border-radius: 10px}
+.cta span {display: block}
+.banner_section .cta {font-size: 25px}
+.banner_section .flex_always {margin: 25px 0; gap: 20px;}
+.banner_section .icon_box { flex:1}
+.banner_section .icon_box b {display: block; padding: 5px 0}
+.banner_section .right_section img.profile {width: 100%}
+.banner_section .profile_section {position: relative; margin-bottom: 20px}
+.banner_section .right_section p {margin: 0; font-weight:800; font-size: 17px}
+.banner_section .right_section h2 {font-weight: 800}
+.banner_section .right_section .reviews {display: flex; padding: 20px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5); position: absolute; bottom: 0; border-radius: 15px; background: white; left: 40px}
+.banner_section .right_section ul {padding: 0 0 0 20px; margin: 10px 0 20px 0; font-size: 17px}
+.banner_section .right_section ul li {font-size: 17px}
+
+.banner_section .founder_profile_inner {display: flex; align-items: center;}
+.banner_section .founder_profile_inner img{width: 100px}
+.banner_section .founder_profile_inner p {padding-left: 15px; font-size: 16px; font-weight: 500; margin: 0}
+.banner_section .founder_profile_inner p span {display: block; font-size: 120%; line-height: 1.3em; font-weight: 700}
+.banner_section .onmob ul {padding-left: 20px}
+.banner_section .onmob .reviews {padding: 12px 20px; background-color: #fff; border-radius: 10px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,.5); text-align: center; line-height: 1.3em}
+.banner_section .onmob .reviews img {display: block; margin: auto; margin-bottom: 5px;}
+.banner_section .onmob .reviews span {line-height: 1.4em;}
+
+
+.message_section {background-color: #0d1117; border-style: solid; border-width: 2px; border-color: #fe4789; border-radius: 20px; padding: 20px; text-align: center}
+.message_section p {font-size:32px; font-weight: 600; color: #f8a76c; line-height: 1.3em}
+
+.v_align {align-items: center;}
+
+.featured_section {padding: 40px 0 50px 0}
+.featured_section span {width: 18%; font-size:24px; font-weight: 800}
+.featured_section img {width: 41%}
+
+
+
+.curriculum_section {background-color: #0d1117; padding: 50px 0}
+.curriculum_section h2 {text-align: center; color: #f8a76c; font-size: 40px; padding-bottom: 30px}
+.curriculum_section img {filter: invert(1); width: 72px; height: fit-content;}
+.curriculum_section_inner {display: grid; grid-template-columns: repeat(2, 1fr); margin-top:20px; grid-gap: 20px;}
+.curriculum_section_inner p {color: #b0b0b0; line-height: 1.6em}
+.curriculum_section_inner p span {display: block; font-size: 21px; padding-bottom: 10px; color: white; font-weight: 600}
+.curriculum_single {display: flex; gap: 20px; border-radius: 15px; background-color: #161b22; padding: 30px;}
+
+.free_bonus {padding: 60px 0; background: #0D1117}
+.free_bonus h2 {text-align:center; color: white; font-size: 42px; padding-bottom: 10px}
+.free_bonus h2 span {color: #fe4789}
+.free_bonus .bonus_row {display: grid; grid-template-columns: repeat(4, 1fr); margin-top:20px; grid-gap: 20px;}
+.free_bonus .bonus_box {border: solid #484c51 2px; border-radius: 10px; overflow: hidden}
+.bonus_row h3 {background:#E8FF5A; padding:10px; text-align: center}
+.bonus_row p {text-align: center; color: white; padding: 2px 6px}
+
+
+.growth_experience {background-color: #0d1117; padding: 50px 0}
+.growth_experience h2 {text-align: center; color: white; font-size: 42px; padding-bottom: 20px}
+.experience_imgs_row {display: flex; gap: 20px}
+
+
+.after_seminar {background: #0D1117; padding: 60px 0}
+.after_seminar h2 {color: #f8a76c; text-align: left; font-size: 42px; padding-bottom: 20px;}
+.after_seminar p {color: white; margin: 0; padding: 0 0 0 10px; font-size: 20px}
+.after_seminar .after_seminar_icon {display: flex; align-items: flex-start; margin: 10px 0 25px 0; padding: 20px; background-color: #161b22; border-style: solid; border-width: 2px; border-color: #484c51; border-radius: 6px;}
+.after_seminar .after_seminar_icon img {width:25px}
+	
+.seminar_right {background: #0D1117; padding: 0 0 60px 0}
+.seminar_right h2 {font-size: 42px; padding-bottom: 25px}
+.seminar_right_inner {display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px}
+.seminar_right .seminar_right_icon p {color:white; margin: 0; padding-left: 15px; font-size: 21px; font-weight: 400; line-height: 1.3em;}
+.seminar_right .seminar_right_icon {display: flex; align-items: center; margin: 10px 0;
+    padding: 20px;
+    background-color: #161b22;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #484c51;
+    border-radius: 6px;}
+
+.seminar_right img {filter: invert(1); width: 70px}
+
+
+
+.testimonial_section {padding: 60px 0}
+.testimonial_section h2 {font-size: 42px; text-align: center; color: black; padding-bottom: 20px}
+.single_testimonial img {height: 25px; margin: 15px 0 5px 0; display: block}
+.single_testimonial .author {display: block; font-weight: 600; font-size: 19px}
+.single_testimonial .designation {display: block; font-size: 14px}
+.testimonial_row {display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px}
+.single_testimonial { background-color: #161b22; padding: 30px; border-radius: 15px}
+.single_testimonial * {color: white}
+
+/**.founder_section .founder_profile {display: flex; align-items: center; justify-content: center;}**/
+.founder_profile h2 {font-size: 42px}
+.founder_section .founder_profile_inner {display: flex; align-items: center; padding: 20px 0; }
+.founder_section .founder_profile img{height: 200px; border-radius: 100%}
+.founder_section .founder_profile p {font-size:20px; padding-left:15px; line-height: 1.4em}
+.founder_section .founder_profile span {font-size:40px; display: block; line-height: 1.3em; font-weight:800}
+.founder_section_inner {display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; padding: 30px 0}
+.founder_inner_single {box-shadow: 0px 0px 10px 0px rgba(0,0,0,.35); padding:20px; position: relative; border-radius: 15px}
+.founder_inner_single span {font-size: 40px; font-weight: 800; padding-bottom: 15px; display: block}
+.founder_inner_single img { position: absolute; right: 20px; background-color: transparent; background-image: linear-gradient(180deg,#ef4b85 38%,#ff7f6b 100%); width: 25px !important; justify-content: center; align-items: center; display: flex !important; padding: 8px; border-radius: 10px; box-shadow: 0px 0px 20px 0px rgba(0,0,0,.25); line-height: 1;}
+
+
+.awards_section {padding:60px 0}
+.awards_section h2 {text-align: center; font-size: 42px; padding-bottom: 10px}
+.awards_inner_row {display: flex; gap:20px}
+.awards_single h3 {text-align: center; padding-bottom: 20px; font-size: 22px}
+.awards_single { flex-grow: 1; flex-basis: 0; text-align: center}
+.awards_single img {height:200px}
+
+.accordion .accordion-item { padding: 30px; background-color: #161b22; border-style: solid; border-width: 1px; border-color: #484c51; border-radius: 5px; margin: 30px 0 }
+
+.accordion button { position: relative; display: block; text-align: left; width: 100%; color: #fff; font-size: 1.15rem; font-weight: 400; border: none; background: none; outline: none; }
+
+.accordion button:hover, .accordion button:focus { cursor: pointer; color: #fff; }
+
+.accordion button:hover::after, .accordion button:focus::after { cursor: pointer; color: #03b5d2; border: 1px solid #03b5d2; }
+
+.accordion button .accordion-title { padding: 1em 1.5em 1em 0; }
+
+.accordion button .icon { display: inline-block; position: absolute; top: 0; right: 0; width: 22px; height: 22px; border: 1px solid; border-radius: 22px;}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 6px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 10px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #fff;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+  color: #fff
+}
+
+.faq_section {background: #0D1117; padding: 60px 0}
+.faq_section h2 {text-align: center; color: #f8a76c; font-size: 42px}
+
+.onmob {display: none}
+
+@media screen and (max-width: 767px) {
+.ondesk {display: none}
+.onmob {display: block}
+.static_bar {display: flex !important; position: fixed; bottom: 0; gap: 10px; padding: 10px; background: white; box-shadow: 0px 0px 10px 0px rgba(0,0,0,.35);}
+.static_bar .timer {width: 40%}
+.static_bar .timer p {font-weight: 600; text-align: center}
+.static_bar .static_cta {width: 60%; text-align: center; font-size: 14px}
+.static_bar .cta {padding: 12px 15px; font-size: 18px; line-height: 1.2em; display: block; margin-bottom: 5px}
+.timer_box {text-align: center; text-transform: uppercase; display: flex; align-items: center; font-size: 14px; gap:5px}
+.timer_box span span {font-size: 22px; font-weight: 600}
+.1timer_box span *{display: block}
+}
+
+
+@media screen and (max-width: 767px) {
+
+.flex_row_desk {display: block}
+.banner_section {padding: 20px}
+.banner_section .left_section {width: 100%}
+.banner_section .right_section {width: 100%}
+
+.banner_section .sub_heading {font-size: 16px}
+.banner_section p.gradient_txt {font-size: 22px; margin: 0}
+.banner_section h1.gradient_txt {font-size: 35px; margin-bottom: 15px}
+.left_section .cta {display: none}
+
+.banner_section .flex_always {gap: 10px;}
+.banner_section .icon_box {text-align: center}
+.banner_section .icon_box span {font-size: 13px; line-height: 1.4em; display: block}
+
+
+.message_section {margin: 0 10px}
+.message_section p {font-size: 20px; text-align:left}
+
+
+.featured_section {text-align: center; padding : 20px}
+.featured_section img {display: block; width: 100%; padding: 10px}
+
+
+.curriculum_section {padding: 20px}
+.curriculum_section h2 {font-size: 30px; text-align: left}
+.curriculum_single {padding: 15px; margin-bottom: 15px}
+.curriculum_section img {width:60px}
+.curriculum_section_inner p {font-size: 15px; line-height: 1.4em;}
+.curriculum_section_inner p span {font-size: 18px; line-height: 1.4em;}
+
+.free_bonus {padding: 20px}
+.free_bonus h2 {font-size: 25px}
+
+
+.free_bonus .bonus_row {grid-template-columns: repeat(2, 1fr); margin-top: 20px; grid-gap: 15px;}
+.bonus_row h3 {font-size: 18px}
+.bonus_row h3 b {display: block}
+.bonus_row p {font-size: 16px}
+
+
+.growth_experience {padding: 20px}
+.growth_experience h2 {font-size: 30px}
+.experience_imgs_row {padding: 0 20px}
+.experience_imgs_row img {padding-bottom: 10px; max-width:100%}
+
+.after_seminar {padding: 20px}
+.after_seminar h2 {font-size: 25px}
+.after_seminar_icon {padding: 8px}
+.after_seminar p {font-size: 16px}
+
+.seminar_right {padding: 0 20px 20px 20px}
+.seminar_right h2 {font-size: 25px}
+.seminar_right .seminar_right_icon {padding: 10px}
+.seminar_right img {width:45px}
+.seminar_right .seminar_right_icon p {font-size: 16px}
+
+
+.testimonial_section {padding: 20px}
+.testimonial_section h2 {font-size: 25px}
+.testimonial_section .single_testimonial {margin-bottom: 15px; padding: 20px}
+
+.founder_section {padding: 20px}
+.founder_profile h2 {font-size: 25px}
+.founder_section .founder_profile img {height: 130px}
+.founder_section .founder_profile span {font-size: 30px}
+.founder_section .founder_profile p {font-size: 16px}
+.founder_section .founder_profile_inner {padding: 10px 0 0 0}
+
+.founder_section_inner {gap: 15px; padding-bottom: 0}
+.founder_inner_single span {font-size: 28px}
+.founder_inner_single p {font-size: 13px}
+.founder_inner_single {padding:15px}
+.founder_inner_single img {width: 20px !important;}
+
+
+.awards_section {padding: 20px}
+.awards_section h2 {font-size: 30px}
+.awards_inner_row {gap: 10px}
+
+.awards_single:first-child {width:60%; flex-grow: inherit; flex-basis: auto;}
+.awards_single h3 {font-size:17px; padding-bottom: 10px}
+.awards_single img {max-height: 85px; max-width: 100%; height: auto}
+
+
+.faq_section {padding: 20px}
+.faq_section h2 {font-size: 35px}
+.accordion .accordion-item {padding: 10px}
+.accordion button .accordion-title {padding: 1em 1.5em 1em 0; word-wrap: break-word; display: block; padding: 0em 1.5em 0em 0; font-size: 16px}
+
+
+.curriculum_section_inner {display: block}
+
+.seminar_right_inner {display: block}
+
+.testimonial_row {display: block}
+
+
+.founder_section_inner {grid-template-columns: repeat(2, 1fr);}
+
+
+.experience_imgs_row {display: block}
+}
